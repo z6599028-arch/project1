@@ -57,6 +57,7 @@ body {
   background-color: aliceblue;
   
 }
+
 .homestr:hover .homeh2 {
   color: #3596a7;
 }
@@ -111,7 +112,7 @@ a {
   margin: 0 0 0 10px;
   border-radius: 15px;
   font-size: 15px;
-  border-color: rgb(10, 247, 204);
+  border: 1px solid rgb(49, 242, 222);
   transition: 0.3s;
 }
 .info_main {
@@ -136,7 +137,6 @@ a {
   font-size: 45px;
   position: absolute;
 }
-.fine_title
 .fine_title {
   display: flex;
   justify-content: space-between;
@@ -148,7 +148,7 @@ a {
   margin: 35px 0 0 150px;
   padding: 35px 500px;
   box-shadow: 1px 1px 20px 1px rgb(64, 226, 226);
-  transition: ;
+  transition: 0.3s;
 }
 .fine_title:hover {
   background-color: aliceblue;
@@ -284,7 +284,7 @@ a {
   left: 450px;
 }
 .main2btn:hover {
-  background-color: rgb(6, 245, 189);
+  background-color: rgb(6, 245, 225);
   color: rgb(0, 0, 0);
   box-shadow: 1px 1px 20px 1px rgb(4, 224, 199);
   transform: scale(1.1);
