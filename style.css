@@ -117,9 +117,7 @@ a {
 .maina {
   color: black;
 }
-.maina:hover {
-  color: rgb(255, 255, 255);
-}
+
 
 .main2btn {
   background: none;
@@ -175,8 +173,12 @@ a {
   color: rgb(64, 226, 226);
   box-shadow: 1px 1px 20px 1px rgb(4, 224, 199);
   transform: scale(1.1);
-}
 
+}
+.mainbtn:hover a{
+  color: rgb(64, 226, 226);
+  
+}
 .fine_wrapper {
   display: flex;
   justify-content: space-between;
@@ -241,6 +243,43 @@ a {
   padding: 50px;
   transition: 0.3s;
 }
+/* HOVER ДЛЯ КАРТОЧЕК СЕМЬИ */
+
+#team .boxoil {
+  overflow: hidden;
+  transition: 0.4s ease;
+}
+
+#team .boxoil img {
+  width: 600px;
+  height: 550px;
+  object-fit: cover;
+  display: block;
+  transition: 0.4s ease;
+}
+
+#team .boxoil:hover {
+  transform: scale(1.03);
+  box-shadow: 1px 1px 50px 1px rgb(70, 220, 236);
+}
+
+#team .boxoil:hover img {
+  height: 390px;
+}
+
+#team .minibox_oil {
+  height: 0;
+  padding: 0 25px;
+  opacity: 0;
+  overflow: hidden;
+  transition: 0.4s ease;
+}
+
+#team .boxoil:hover .minibox_oil {
+  height: 140px;
+  padding: 20px 25px;
+  opacity: 1;
+}
 .oila_wrapper {
   margin-top: 200px;
   position: relative;
@@ -275,10 +314,8 @@ a {
 .minibox_oil{
   padding: 30px;
 }
-.boxoil:hover{
-  transform: scale(1.1);
-  box-shadow: 1px 1px 30px 1px rgb(78, 197, 206);
-}
+
+
 .kard2_mini {
   width: 350px;
   height: 200px;
