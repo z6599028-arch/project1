@@ -7,26 +7,30 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
-    <header>
-      <nav class="nav">
-        <div class="container">
-          <div class="nav__wrapper">
-            <div class="homestr">
-              <div><h2 class="homeh2">Javoxir</h2></div>
-              <div>
-                <ul class="nav__ul">
-                  <li><a href="#about">Men haqimda</a></li>
-                  <li><a href="#team">Oilam</a></li>
-                  <li><a href="#projects">Loyohalarim</a></li>
-                  <li><a href="#guruh">Mening guruhim</a></li>
-                  <li><a href="#contact">Aloqa</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
+    <header class="nav">
+      <nav class="nav__wrapper">
+        <a href="#home" class="nav__logo">Javoxir</a>
+
+        <ul class="nav__links">
+          <li>
+            <a href="#about" class="nav__link">Men haqimda</a>
+          </li>
+          <li>
+            <a href="#family" class="nav__link">Oilam</a>
+          </li>
+          <li>
+            <a href="#projects" class="nav__link">Loyohalarim</a>
+          </li>
+          <li>
+            <a href="#team" class="nav__link">Mening guruhim</a>
+          </li>
+          <li>
+            <a href="#contact" class="nav__link">Aloqa</a>
+          </li>
+        </ul>
       </nav>
     </header>
+
     <main>
       <div class="container">
         <div data-aos="fade-up" class="main__wrapper">
@@ -47,7 +51,7 @@
                 font-size: 19px;
               "
             >
-              15 yoshli kelajak frontend dasturchisi. Sayt yasashni, futbolni va
+              15 yoshli kelajak frontend dasturchisi. Sayt yasashni, boksning va
               g'oyalarni <br />
               hayotga tatbiq etishni sevaman.
             </p>
@@ -66,14 +70,35 @@
               alt=""
             />
           </div>
+
+          
         </div>
       </div>
+      <div class="tech-strip">
+            <div class="tech-track">
+              <div class="tech-content">
+                <span>FRONTEND</span><i>✦</i> <span>HTML</span><i>✦</i>
+                <span>CSS</span><i>✦</i> <span>JAVASCRIPT</span><i>✦</i>
+                <span>CREATIVE MIND</span><i>✦</i> <span>FUTURE DEVELOPER</span
+                ><i>✦</i>
+              </div>
+              <div class="tech-content" aria-hidden="true">
+                <span>FRONTEND</span><i>✦</i> <span>HTML</span><i>✦</i>
+                <span>CSS</span><i>✦</i> <span>JAVASCRIPT</span><i>✦</i>
+                <span>CREATIVE MIND</span><i>✦</i> <span>FUTURE DEVELOPER</span
+                ><i>✦</i>
+              </div>
+            </div>
+          </div>
     </main>
     <section class="hero" id="about">
       <div class="container">
         <div data-aos="fade-up" class="hero__wrapper">
           <div class="title_hero">
-            <h1 style="color: aliceblue; font-size: 55px; margin: 20px 0">
+            <h1
+              class="h1hero"
+              style="color: aliceblue; font-size: 55px; margin: 20px 0"
+            >
               Men haqimda:
             </h1>
             <img
@@ -142,7 +167,9 @@
       <div class="container">
         <div class="oila_wrapper">
           <div class="title_oila">
-            <h1 style="color: aliceblue; font-size: 55px">Mening oilam</h1>
+            <h1 class="h1_oila" style="color: aliceblue; font-size: 55px">
+              Mening oilam
+            </h1>
           </div>
           <div class="bigbox_oil">
             <div class="boxoil">
@@ -209,7 +236,7 @@
           <div class="kard_big">
             <div class="kard_mini">
               <h3 style="color: rgb(58, 32, 17); font-size: 31px">
-                Cafe Street
+                Book Store
               </h3>
               <p
                 style="
@@ -295,7 +322,9 @@
       <div class="container">
         <div data-aos="fade-up" class="stun__wrapper">
           <div class="title_stun">
-            <h1 style="color: aliceblue; font-size: 55px">Mening guruhim:</h1>
+            <h1 class="h1giruh" style="color: aliceblue; font-size: 55px">
+              Mening guruhim:
+            </h1>
           </div>
           <div class="boxstun active-card">
             <img class="imgstun" src="/photo_2026-09-29 15.12.12.jpeg" alt="" />
@@ -303,7 +332,7 @@
             <div class="miniboxs">
               <h3 class="h3stun">HUSNIDA</h3>
               <h5 class="h5stun">Student</h5>
-              <p class="pstun">codni ko'chirish bo'yicha guruhimiz chempioni</p>
+              <p class="pstun">Guruhimizning eng quvnoq o‘quvchisi.</p>
             </div>
           </div>
 
@@ -313,7 +342,7 @@
             <div class="miniboxs">
               <h3 class="h3stun">ILYOS</h3>
               <h5 class="h5stun">Student</h5>
-              <p class="pstun">guruhimizning eng a'lochi o'quvchisi</p>
+              <p class="pstun">Doimo yaxshi kayfiyat ulashadigan inson.</p>
             </div>
           </div>
 
@@ -323,7 +352,7 @@
             <div class="miniboxs">
               <h3 class="h3stun">SHOXJAHON</h3>
               <h5 class="h5stun">Student</h5>
-              <p class="pstun">Guruhimizning aqilli va kam gap o'quvchisi</p>
+              <p class="pstun">Aqlli, samimiy va kamtar o‘quvchimiz.</p>
             </div>
           </div>
 
@@ -333,7 +362,7 @@
             <div class="miniboxs">
               <h3 class="h3stun">MUHAMMADALI</h3>
               <h5 class="h5stun">Student</h5>
-              <p class="pstun">dars davomida o'yin o'ynaydigan o'quvchi</p>
+              <p class="pstun">Guruhimizning eng samimiy insoni.</p>
             </div>
           </div>
 
@@ -343,7 +372,7 @@
             <div class="miniboxs">
               <h3 class="h3stun">DOVUDBEK</h3>
               <h5 class="h5stun">Student</h5>
-              <p class="pstun">judako'p gapiradigan o'quvchi</p>
+              <p class="pstun">Har doim o‘ziga ishongan o‘quvchi.</p>
             </div>
           </div>
           <div class="boxstun active-card">
@@ -352,7 +381,7 @@
             <div class="miniboxs">
               <h3 class="h3stun">OZODBEK</h3>
               <h5 class="h5stun">Student</h5>
-              <p class="pstun">Kod kochirish boyicha guruhimiz chempioni</p>
+              <p class="pstun">Quvnoqligi bilan barchani xursand qiladigan.</p>
             </div>
           </div>
 
@@ -362,7 +391,7 @@
             <div class="miniboxs">
               <h3 class="h3stun">SUNNAT</h3>
               <h5 class="h5stun">Student</h5>
-              <p class="pstun">Kod nusxalash bo‘yicha guruhimiz rekordchisi</p>
+              <p class="pstun">O‘ziga xos xarakter egasi bo‘lgan.</p>
             </div>
           </div>
 
@@ -372,7 +401,7 @@
             <div class="miniboxs">
               <h3 class="h3stun">MUHAMMADALI</h3>
               <h5 class="h5stun">Student</h5>
-              <p class="pstun">Copy-Paste bo‘yicha guruhimiz ustasi</p>
+              <p class="pstun">Guruhimizning eng topqir o‘quvchilaridan biri.</p>
             </div>
           </div>
 
@@ -382,7 +411,7 @@
             <div class="miniboxs">
               <h3 class="h3stun">BOTIR</h3>
               <h5 class="h5stun">Student</h5>
-              <p class="pstun">Kod olish bo‘yicha guruhimiz chempioni</p>
+              <p class="pstun">Do‘stlariga doimo yordam berishga tayyor.</p>
             </div>
           </div>
 
@@ -392,7 +421,7 @@
             <div class="miniboxs">
               <h3 class="h3stun">SHOXRUH</h3>
               <h5 class="h5stun">Student</h5>
-              <p class="pstun">Kod ko‘chirishda bizga teng keladigani yo‘qi</p>
+              <p class="pstun">Har doim hurmat bilan muomala qiladi.</p>
             </div>
           </div>
 
@@ -403,7 +432,7 @@
               <h3 class="h3stun">JAFAR</h3>
               <h5 class="h5stun">Student</h5>
               <p class="pstun">
-                Kod ko‘chirish bo‘yicha guruhimizda tengi yo‘q
+                Guruhimizning eng faol o‘quvchilaridan biri.
               </p>
             </div>
           </div>
@@ -424,46 +453,68 @@
         </div>
       </div>
     </section>
-    <footer class="foot_wrapper" id="contact">
-      <section>
-        <div class="container">
-          <div class="foot_wrapper">
-            <div class="box_foot">
-              <div class="boxfootvini">
-                <div>
-                  <h1 style="color: rgb(14, 246, 246); font-size: 77px">
-                    Men, <span style="color: rgb(30, 166, 239)">bilan</span>
-                    <br />
-                    bog'laning
-                  </h1>
-                </div>
-                <div>
-                  <ul>
-                    <li>99 201 74 31</li>
-                    <li>javoxirjamishidov739@gmail.com</li>
-                  </ul>
-                </div>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-top">
+          <div class="footer-heading">
+            <h2 class="footer-title">
+              Men, bilan
+              <span>bog'laning</span>
+            </h2>
+
+            <p class="footer-description">
+              Savollaringiz bo'lsa, men bilan bog'laning
+            </p>
+          </div>
+
+          <div class="footer-contacts">
+            <a href="tel:+998992017431" class="footer-link">
+              <div class="footer-icon">
+                <span>↗</span>
               </div>
-              <br /><br /><br />
-              <hr />
-              <br /><br /><br />
-              <div info_foot>
-                <div>
-                  <p style="color: rgb(0, 187, 255); font-size: 20px">
-                    ©2026 Javohir. Barcha huquqlar himoyalangan.
-                  </p>
-                </div>
-                <div class="minifoitpos">
-                  <p style="color: rgb(0, 187, 255); font-size: 20px">
-                    Tashkent, O'zbekiston
-                  </p>
-                </div>
+
+              <div class="footer-contact-info">
+                <span class="contact-label">TELEFON</span>
+                <span class="contact-value">+998 99 201 74 31</span>
               </div>
-            </div>
+
+              <span class="footer-arrow">→</span>
+            </a>
+
+            <a href="mailto:javoxirjamishidov739@gmail.com" class="footer-link">
+              <div class="footer-icon">
+                <span>✉</span>
+              </div>
+
+              <div class="footer-contact-info">
+                <span class="contact-label">EMAIL</span>
+                <span class="contact-value">
+                  javoxirjamishidov739@gmail.com
+                </span>
+              </div>
+
+              <span class="footer-arrow">→</span>
+            </a>
           </div>
         </div>
-      </section>
+
+        <div class="footer-line"></div>
+
+        <div class="footer-bottom">
+          <p class="footer-copyright">
+            <span class="copyright-icon">©</span>
+            2026 Javohir. Barcha huquqlar himoyalangan.
+          </p>
+
+          <p class="footer-location">
+            <span class="location-icon">●</span>
+            Tashkent, O'zbekiston
+          </p>
+        </div>
+      </div>
     </footer>
+
     <script>
       const cards = document.querySelectorAll(".boxstun");
       const dots = document.querySelectorAll(".dots span");
