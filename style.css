@@ -481,7 +481,7 @@ a {
   padding: 50px;
   transition: 0.3s;
 }
- .kard3_mini {
+.kard3_mini {
   width: 350px;
   height: 200px;
   background-color: rgba(69, 118, 138, 0.415);
@@ -510,7 +510,6 @@ a {
     #eaffff,
     #00ffff,
     #087bff,
-    
     #00ffff,
     #eaffff
   );
@@ -566,27 +565,27 @@ a {
 /* ===== FOOTER ===== */
 
 .footer {
+ 
   position: relative;
   isolation: isolate;
   overflow: hidden;
-  width: 100%;
+  width: 97%;
   padding: 80px 7% 30px;
   color: #e7faff;
   background-color: #080c0e;
   background-image:
-    linear-gradient(rgba(50, 130, 150, 0.09) 1px, transparent 1px),
+    linear-gradient(rgba(27, 52, 58, 0.09) 1px, transparent 1px),
     linear-gradient(90deg, rgba(50, 130, 150, 0.09) 1px, transparent 1px),
     linear-gradient(
       45deg,
       transparent 49%,
-      rgba(30, 90, 110, 0.06) 50%,
+      rgba(23, 100, 126, 0.06) 50%,
       transparent 51%
     );
-  background-size:
-    54px 54px,
-    54px 54px,
-    18px 18px;
+
   font-family: Georgia, serif;
+  border-radius: 75px;
+  margin: 0 0 0 25px;
 }
 
 .footer-container {
