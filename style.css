@@ -503,6 +503,36 @@ a {
   top: 37px;
   left: 450px;
 }
+
+.nav__logo {
+  background: linear-gradient(
+    90deg,
+    #eaffff,
+    #00ffff,
+    #087bff,
+    
+    #00ffff,
+    #eaffff
+  );
+
+  background-size: 300% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: textShine 4s linear infinite;
+}
+
+@keyframes textShine {
+  0% {
+    background-position: 0% center;
+  }
+
+  100% {
+    background-position: 300% center;
+  }
+}
+
 .main2btn:hover {
   box-shadow: 1px 1px 20px 1px rgb(4, 224, 199);
   transform: scale(1.1);
